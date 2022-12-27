@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+:root{
+    --cinza:#474747;
+    --rosa: #c92071;
+    --rosa-hover: #b11c64;
+    --l-space:0.75px;
+    
+    
+}
+header{
+    background-color: #ffffff;
+    padding: 25px 40px;
+}
+header figure{
+    padding: 10px;
+    line-height: 30px;
+    margin-left: 15px;
+    display: block;
+    align-items: center;
+}
+#login{
+    background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
+    padding: 120px 100px;
+    display: flex;
+   
+}
+#login .left, .direita{
+    width: 50%;
+}
+#login form{
+    width: 583px;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #EFEFFF;
+    
+
+}
+#login form h2{
+    line-height: 36px;
+    font-size: 32px;
+    color: #1f1f1f;
+    letter-spacing: 1px;
+}
+#login form p{
+    font-size: 16px;
+    color: var(--cinza);
+    line-height: 28px;
+    letter-spacing: var(--l-space);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#login form label{
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--cinza);
+    letter-spacing: var(--l-space);
+    display: block;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#login form input{
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    padding: 0 25px;
+    background-color: #47474710;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    outline: 0;
+    transition-duration: .2s;
+}
+#login form input:focus{
+    border-color: 1px solid var(--rosa);
+    
+}
+#login form input:last-of-type{
+    margin-bottom: 30px;
+}
+#login form a{
+    color: var(--cinza);
+    text-decoration: underline;
+}
+#login form .recuperar{
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+}
+#login form button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: var(--l-space);
+    color: #F5F5F5;
+    background-color: var(--rosa);
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+#login form button:hover{
+    background-color: var(--rosa-hover);
+}
+#login form .form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+#login form .form-footer p{
+    margin: 0;
+}
+#login form .form-footer img{
+    margin-left: 20px;
+}
+.form-footer > p{
+    color: #1f1f1f;
+}
+.direita{
+    display: flex;
+}
+.tenis1{
+    margin-bottom: 200px;
+}
+.tenis2{
+    margin-top: 200px;
+}
+.rodape{
+    width: 100vw;
+    height: 100vh;
+}
