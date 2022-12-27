@@ -137,7 +137,38 @@ header figure{
 .tenis2{
     margin-top: 200px;
 }
-.rodape{
+.container-footer{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: nowrap;
+   
+    background-color: #1f1f1f;
+    color: #ffffff;
     width: 100vw;
     height: 100vh;
+   
+   
+    
+}
+.dc_logo_Footer{
+    padding: 20px;
+}
+.Dc{
+    border: 1px solid white;
+    align-items: center;
+}
+.informacao{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.categoria{
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 5px;
+}
+.contato{
+    border: 1px solid white;
+    padding: 10px;
 }
