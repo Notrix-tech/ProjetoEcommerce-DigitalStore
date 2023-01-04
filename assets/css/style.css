@@ -139,10 +139,9 @@ header figure{
 }
 .container-footer{
     display: flex;
+    flex-direction: row;
     align-items: start;
     justify-content: center;
-    flex-wrap: nowrap;
-   
     background-color: #1f1f1f;
     color: #ffffff;
     width: 100vw;
@@ -158,10 +157,11 @@ header figure{
     border: 1px solid white;
     align-items: center;
 }
-.informacao{
+.informacao > li{
     padding: 10px;
     margin-top: 10px;
     border: 1px solid white;
+    list-style: none;
 }
 .categoria{
     border: 1px solid white;
