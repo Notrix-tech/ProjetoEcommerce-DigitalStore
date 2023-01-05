@@ -132,6 +132,8 @@ header figure{
     display: flex;
 }
 .tenis1{
+    width: 800px;
+    height: 700px;
     margin-bottom: 200px;
 }
 .tenis2{
